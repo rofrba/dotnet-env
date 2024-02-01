@@ -1,0 +1,4 @@
+/Users/ralvarez/Local/Proyectos/Coelsa/MyApp/obj/Release/net8.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ralvarez/Local/Proyectos/Coelsa/MyApp/obj/Release/net8.0/MyApp.AssemblyInfoInputs.cache
+/Users/ralvarez/Local/Proyectos/Coelsa/MyApp/obj/Release/net8.0/MyApp.AssemblyInfo.cs
+/Users/ralvarez/Local/Proyectos/Coelsa/MyApp/obj/Release/net8.0/MyApp.csproj.CoreCompileInputs.cache
