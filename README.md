@@ -88,7 +88,10 @@ oc patch deployment dotnet-env --type strategic -p  '
 }'
 ```
 
+
 # o Ajustar a mano
+
+```
 volumes:
 - name: mysecreto
     secret:
@@ -97,3 +100,4 @@ volumes:
         - key: app.json
         path: appsettings.json
     defaultMode: 420
+```
