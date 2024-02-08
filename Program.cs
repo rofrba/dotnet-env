@@ -30,7 +30,7 @@ class Program
                 config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
                 // Sobrescribe la configuración con variables de entorno
-                config.AddEnvironmentVariables(prefix: "MyApp_");
+                config.AddEnvironmentVariables(prefix: "MYAPP_");
             })
             .ConfigureServices((hostContext, services) =>
             {
@@ -59,7 +59,7 @@ public class MyService
         Console.WriteLine($"Value from appsettings.json: {mySettingValue}");
 
         // Accede a las variables de entorno directamente
-        var mySecretEnv = Environment.GetEnvironmentVariable("MyApp_MY_VARIABLE");
+        var mySecretEnv = Environment.GetEnvironmentVariable("MYAPP_MY_VARIABLE");
         Console.WriteLine($"Secret from environment variable: {mySecretEnv}");
 
     }
